@@ -7,9 +7,9 @@ model = joblib.load("log.pkl")
 # MySQL connection
 def connect_to_db():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",  # Change this
-        password="root",  # Change this
+        host="127.0.0.1",
+        user="root",  
+        password="Raja@3182",  
         database="heart_data"
     )
 
